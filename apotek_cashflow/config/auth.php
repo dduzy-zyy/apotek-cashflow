@@ -1,0 +1,1 @@
+<?php require_once __DIR__.'/database.php'; if(!isset($_SESSION['user'])){header('Location:login.php');exit;} ?>
